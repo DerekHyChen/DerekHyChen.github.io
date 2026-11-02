@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Title -->
+    <title>Derek Chen</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+    <meta name="description" content="Derek Chen, M.S. student at UC San Diego working on robot hardware, haptics and medical robotics.">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css?v=9">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+
+  <body id="body">
+
+    <div id="main">
+
+      <!-- ============ INTRO ============ -->
+      <div id="intro">
+        <div id="intro-text">
+          <h1>Derek Chen</h1>
+          <p>
+            Hi! I'm an M.S. student in Electrical Engineering at UC San Diego, where I also received my B.S. I've worked with Michael C. Yip in the
+            <a href="https://yip.eng.ucsd.edu/">Advanced Robotics and Controls Lab (ARCLab)</a> for the past 4 years.
+            My research focuses on bio-inspired backdrivable robot hardware capable of dynamic interaction,
+            haptic interfaces with transparent torque feedback, and robotic systems for medical procedures.
+            I've also interned as a mechatronics engineer at ASML, an electrical engineer at Cadence Design Systems, and a mechanical engineering consultant at Avicena Tech.
+            <br><br>
+            <a href="cv.pdf">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?user=u4yKujcAAAAJ&hl=en">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/derekhchen">LinkedIn</a>
+            <!-- &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/DerekHyChen">GitHub</a> -->
+            <br><br>
+            dchen3316 at gmail dot com
+            <br><br>
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/profile.jpg" alt="Derek Chen">
+        </div>
+      </div>
+
+      <!-- ============ TABS ============ -->
+      <div id="filters" class="button-group">
+        <button class="button is-checked" data-filter=".highlight">Highlights</button>
+        <button class="button" data-filter=".publication">Publications</button>
+        <button class="button" data-filter=".project">Projects</button>
+        <button class="button" data-filter=".experience">Experience</button>
+        <button class="button" data-filter=".misc">Misc</button>
+      </div>
+
+      <div class="grid">
+
+        <!-- ============ HIGHLIGHTS ============ -->
+        <!-- Preview videos: put .mp4 files in videos/ with these names. The poster image shows until the video loads. -->
+        <div class="list-item highlight previews" data-category="highlight">
+          <video class="preview1" src="videos/highlight1.mp4" poster="images/bimanual-arm.jpg" autoplay muted loop playsinline></video>
+          <video class="preview2" src="videos/highlight2.mp4?v=2" poster="images/haptic-shoulder.jpg" autoplay muted loop playsinline></video>
+          <video class="preview3" src="videos/highlight3.mp4?v=5" poster="images/ct-bore-robot.jpg?v=5" autoplay muted loop playsinline></video>
+        </div>
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">2026</p>First-author paper on screw-based amphibious locomotion at <b>ICRA 2026</b>
+        </div>
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date"></p>Paper on CT-guided needle insertion at <b>CASE 2026</b>
+        </div>
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date"></p>Co-first-author workshop paper, <i>Physical Twins</i>, at ICRA 2026
+        </div>
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">2024</p>Mechatronics intern at ASML
+        </div>
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">2023</p>Joined ARCLab at UC San Diego
+        </div>
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">2023</p>Eletrical intern at Cadence
+        </div>      
+
+        <!-- ============ PUBLICATIONS ============ -->
+        <div class="list-item publication description" data-category="publication">
+          * indicates equal contribution. Also listed on my <a href="https://scholar.google.com/citations?user=u4yKujcAAAAJ&hl=en">Google Scholar</a>.
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a class="thumbnail"><img src="images/arcsnake.jpg?v=2" alt=""></a>
+          <div class="project-description">
+            <h3>Characterization and Evaluation of Screw-Based Locomotion Across Aquatic, Granular, and Transitional Media</h3>
+            <p>
+              <b>Derek Chen</b>, Zoe Samuels, Lizzie Peiros, Sujaan Mukherjee, Michael C. Yip<br>
+              <i>IEEE International Conference on Robotics and Automation (ICRA) 2026</i><br>
+              <!-- Add links, e.g. <a href="URL">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="URL">Video</a> -->
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a class="thumbnail"><img src="images/ct-dexterous.jpg" alt=""></a>
+          <div class="project-description">
+            <h3>Dexterous Control of an 11-DOF Redundant Robot for CT-Guided Needle Insertion With Task-Oriented Weighted Policies</h3>
+            <p>
+              Peihan Zhang, <b>Derek Chen</b>, Ishan Duriseti, Florian Richter, Zoe Chiu, Moira Bohley, Michael C. Yip<br>
+              <i>IEEE International Conference on Automation Science and Engineering (CASE) 2026</i><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a class="thumbnail"><img src="images/physical-twins.jpg" alt=""></a>
+          <div class="project-description">
+            <h3>Physical Twins: Accelerating and Enabling Robot Learning with Phantom Platforms</h3>
+            <p>
+              Elizabeth Peiros*, <b>Derek Chen*</b>, Lucas Yager*, Edward Lee, Kevin Wang, Zoe Samuels, Michael C. Yip<br>
+              <i>Under review,  ACM Transactions on Human-Robot Interaction (T-HRI), 2027</i><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a class="thumbnail"><img src="images/respiratory-needle.jpg?v=2" alt=""></a>
+          <div class="project-description">
+            <h3>Integrated Respiratory Sensing and Gated Control for Autonomous Needle Insertion Via CT Bore Robotic Arm</h3>
+            <p>
+              Emma Huang, Moira Bohley, Krishna Jamakhandi, Rebecca Fellbaum, Sophia Tang, Sean Tutton, Albert Hsiao, Alexander Norbash, Changwei Chen, <b>Derek Chen</b>, Ananya Rao, Lizzie Peiros, Michael C. Yip<br>
+              <i>Under review, IEEE International Conference on Robotics and Automation (ICRA) 2027</i><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a class="thumbnail"><img src="images/spine-stabilization.jpg?v=2" alt=""></a>
+          <div class="project-description">
+            <h3>Bi-manual Stabilization of the Cervical Spine for Safe Physical Human-Robot Interaction in Rolling Maneuvers</h3>
+            <p>
+              Elizabeth Peiros, Moira Bohley, Lucas Yager, <b>Derek Chen</b>, Rebecca Fellbaum, Chris D'Ambrosia, Ananya Rao, Xiao Liang, Michael C. Yip<br>
+              <i>Under review, IEEE International Conference on Robotics and Automation (ICRA) 2027</i><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a class="thumbnail"><img src="images/haptic-shoulder.jpg" alt=""></a>
+          <div class="project-description">
+            <h3>Physical Twins: Bridging the Gap of Minimal Data and Safe Real-World Human Experiments Enabling AI/RL in Physical Human-Robot Interactions</h3>
+            <p>
+              Elizabeth Peiros*, <b>Derek Chen*</b>, Lucas Yager*<br>
+              <i>ICRA 2026 Workshop on Bridging the Gap between Robot Learning and Human-Robot Interaction</i><br>
+            </p>
+          </div>
+        </div>
+
+        <!-- ============ PROJECTS ============ -->
+        <!-- Each project: title, then up to 4 images in .project-images, then the description.
+             Give each image style="--ar: width/height" so the row keeps every image uncropped at one height. -->
+        <div class="list-item project" data-category="project">
+          <h3><a href="https://drive.google.com/file/d/16d4Lg6tT8CYd3wQsD_Fa2lG0Yh2IE6ms/view?usp=sharing">Dynamic Bimanual Arm</a></h3>
+          <div class="project-images">
+            <video src="videos/highlight1.mp4" poster="images/bimanual-arm.jpg" style="--ar: 1.778" autoplay muted loop playsinline></video>
+            <img src="images/bimanual-arm-outdoor.jpg" style="--ar: 1.466" alt="">
+          </div>
+          <p>
+            A 9-dof bio-inspired, low-inertia, backdrivable bimanual arm. A spherical parallel manipulator replicates human shoulder rotation, and a string-driven wrist moves the motors toward the shoulder. It throws objects over 30 ft, reaches 3.6 mm positional repeatability and survives repeated hammering.<br>
+            <i>First author, in preparation</i><br>
+            <a href="https://drive.google.com/file/d/16d4Lg6tT8CYd3wQsD_Fa2lG0Yh2IE6ms/view?usp=sharing">Video</a>
+          </p>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <h3>Haptic Shoulder</h3>
+          <div class="project-images">
+            <img src="images/haptic-shoulder.jpg" style="--ar: 1.778" alt="">
+            <img src="images/haptic-shoulder-cad.jpg" style="--ar: 0.778" alt="">
+            <img src="images/haptic-shoulder-render.jpg" style="--ar: 0.891" alt="">
+            <img src="images/haptic-shoulder-base.jpg" style="--ar: 0.676" alt="">
+          </div>
+          <p>
+            A bio-inspired human shoulder that renders haptic feedback of joint torques and shoulder position. A coaxial spherical parallel manipulator driven through capstan cable transmissions minimizes perceived friction, so the user feels only motor inertia.<br>
+            <i>Co-first author, Physical Twins (RA-L, under review)</i>
+          </p>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <h3>CT Bore Robot</h3>
+          <div class="project-images">
+            <img src="images/ct-dexterous.jpg" style="--ar: 1.786" alt="">
+            <video src="videos/highlight3.mp4?v=5" poster="images/ct-bore-robot.jpg?v=5" style="--ar: 1.778" autoplay muted loop playsinline></video>
+          </div>
+          <div class="project-images">
+            <img src="images/respiratory-needle.jpg?v=2" style="--ar: 1.942" alt="">
+            <img src="images/ct-encoder.jpg" style="--ar: 1.053" alt="">
+          </div>
+          <p>
+            Integrated absolute encoders at the end effector of an 11-DOF CT bore robot, streaming readings over Bluetooth as micro-ROS topics. Reduced the robot's weight to enable mounting on a 6-DOF industrial arm, and mentored students designing a breathing-compensated needle insertion mechanism and a lung phantom.<br>
+            <i>Second author, CASE 2026; co-author, ICRA 2027 (under review)</i>
+          </p>
+        </div>
+
+        <!-- ARCSnake Testbed: hidden for now; remove these comment markers to show it.
+        <div class="list-item project" data-category="project">
+          <h3>ARCSnake Testbed</h3>
+          <div class="project-images">
+            <img src="images/arcsnake-module.jpg" style="--ar: 0.691" alt="">
+            <img src="images/arcsnake-sand.jpg" style="--ar: 1.624" alt="">
+          </div>
+          <p>
+            Designed an aquatic module for an amphibious screw-propelled testbed, and led data collection across sand, water and transitional media.<br>
+            <i>First author, ICRA 2026</i>
+          </p>
+        </div>
+        -->
+
+        <div class="list-item project" data-category="project">
+          <h3>Pressure-Sensing Grasping Claw</h3>
+          <div class="project-images">
+            <img src="images/grasping-claw-sketch.jpg" style="--ar: 1.067" alt="">
+            <img src="images/grasping-claw-finger.jpg" style="--ar: 1.333" alt="">
+          </div>
+          <p>
+            A grasping claw with pressure sensors in the finger pads, compact capstan pulleys at each joint and lightweight twisted string actuators, built to manipulate human body parts safely without bruising.
+          </p>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <h3>Cadence Design Systems IC Tester</h3>
+          <div class="project-images">
+            <img src="images/ic-tester-render.jpg" style="--ar: 1.636" alt="">
+            <img src="images/ic-tester-photo.jpg" style="--ar: 1.987" alt="">
+          </div>
+          <p>
+            The core concept behind this machine is to increase the throughput of tested IC chips and minimize the setup time. To achieve this, the robot was divided into two primary components: 1) a pick-and-place system to switch the IC under test and 2) an XY slider to flexibly position an IC thermal tester. The pick-and-place system employs a combination of linear motion and a rotational axis, ensuring both speed and accuracy while maintaining a compact footprint. These operations are controlled by custom inverse kinematics, effectively guiding the pick-and-place head to avoid entangling wires. On the thermal testing side, linear rails were used to ensure rigidity, while hand-locking clamps allow for rapid positioning of the IC thermal tester.
+          </p>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <h3>Rocket Lander Power System</h3>
+          <div class="project-images">
+            <img src="images/power-system-schematic.jpg" style="--ar: 1.274" alt="">
+            <img src="images/power-system-pcb.jpg" style="--ar: 1" alt="">
+            <img src="images/power-system-render.jpg" style="--ar: 0.416" alt="">
+          </div>
+          <p>
+            The electrical power system is designed to provide sufficient power for a successful rocket flight, incorporating a built-in safety factor. The system utilizes four 7S LiPo cells and two 4S LiPo cells to supply a 24V and 12V power bus, respectively. Redundant power is provided by the 12V lines to ensure the uninterrupted operation of vital control units. Battery management systems are employed to ensure the safe usage of LiPo batteries, while buck-boost converters maintain stable power for the 24V and 12V systems. Additional components, such as diodes, are implemented to prevent current flow in the wrong direction. A custom relay board, controlled via I2C, enables individual battery cutoff from the bus, optimizing microcontroller IO usage. The mechanical structure was also constructed from sheet metal, allowing for a complex yet rigid structure while keeping costs manageable.
+          </p>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <h3>Nephas Engine Thrust Structure</h3>
+          <div class="project-images">
+            <img src="images/thrust-structure.jpg" style="--ar: 0.616" alt="">
+            <img src="images/thrust-structure-gimbal.jpg" style="--ar: 1.313" alt="">
+          </div>
+          <p>
+            The objective of the gimbal project was to develop a mechanism that could provide up to 15 degrees of rotational motion in all axes while maintaining a secure attachment to the rocket. A multi-part design was implemented to ensure ease of assembly and minimal weight. Dowel pins aid in alignment and shear force management, while screws and lock washers were incorporated to prevent screw loosening due to vibration. Design for Manufacturability (DFM) was also a key consideration, including dowel pins to help in welding alignment and minimize the machining effort required for the frame structure.
+          </p>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <h3>BLDC Motor Controller</h3>
+          <div class="project-images">
+            <img src="images/bldc-schematic.jpg" style="--ar: 0.940" alt="">
+            <img src="images/bldc-exploded.jpg" style="--ar: 2.236" alt="">
+            <img src="images/bldc-pcb-render.jpg" style="--ar: 1.913" alt="">
+            <img src="images/bldc-pcb-photo.jpg" style="--ar: 1" alt="">
+          </div>
+          <p>
+            To design a low-cost BLDC driver, an ESP32 microcontroller was selected due to its ease of reconfiguring GPIO ports into PWM ports. The DRV8313 was chosen as the H-bridge IC for its easy sourcing and compact package footprint. Bulk capacitors were used to effectively curb power fluctuations when the gimbal motor first turned on, resulting in more consistent power for the motor. Particular emphasis was placed on PCB stack-up to ensure good separation of PWM signal from power via ground isolation in order to mitigate noise in the signal channel.
+          </p>
+        </div>
+
+        <!-- ============ EXPERIENCE ============ -->
+        <div class="list-item experience" data-category="experience">
+          <p class="date">2023&ndash;now</p><span class="exp-text">Graduate/Undergraduate Researcher, <a href="https://yip.eng.ucsd.edu/">ARCLab</a>, UC San Diego<br><span class="exp-detail">Robot hardware, haptics and medical robotics with Michael C. Yip</span></span>
+        </div>
+        <div class="list-item experience" data-category="experience">
+          <p class="date">2024</p><span class="exp-text">Mechatronics Intern, ASML<br><span class="exp-detail">PCBs for high-vacuum environments; fixtures for motor force-constant calibration</span></span>
+        </div>
+        <div class="list-item experience" data-category="experience">
+          <p class="date">2023</p><span class="exp-text">Electrical Engineering Intern, Cadence Design Systems<br><span class="exp-detail">Robotic remote chip-testing system with an eightfold reduction in chip switching time</span></span>
+        </div>
+        <div class="list-item experience" data-category="experience">
+          <p class="date">2021&ndash;2025</p><span class="exp-text">Director of Electrical, SEDS at UCSD<br><span class="exp-detail">Power system and thrust vectoring for a self-landing rocket testbed</span></span>
+        </div>
+        <div class="list-item experience" data-category="experience">
+          <p class="date">2022</p><span class="exp-text">Packaging Engineering Intern, Avicena Tech<br><span class="exp-detail">Automated goniometer for LED far-field characterization</span></span>
+        </div>
+
+        <!-- ============ misc ============ -->
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2026</p><span class="exp-text">Reviewer, IEEE ICRA 2027</span>
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p><span class="exp-text">Mentored 5 students in mechanical design and DFM at ARCLab</span>
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p><span class="exp-text">Mentored over 20 students in electrical engineering basics at SEDS</span>
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p><span class="exp-text">Introduced over 40 students to robotics as a FIRST Robotics mentor</span>
+        </div>
+
+      </div>
+
+      <div id="footer">Website template from <a href="https://andyzeng.github.io/">Andy Zeng</a>.</div>
+
+    </div>
+
+    <script>
+      // Tabs: show only the items whose class matches the clicked button.
+      var buttons = document.querySelectorAll('#filters .button');
+      var items = document.querySelectorAll('.grid .list-item');
+
+      function showTab(cls) {
+        items.forEach(function (el) {
+          el.style.display = el.classList.contains(cls) ? '' : 'none';
+        });
+        buttons.forEach(function (b) {
+          b.classList.toggle('is-checked', b.getAttribute('data-filter') === '.' + cls);
+        });
+        try { localStorage.setItem('tab', cls); } catch (e) {}
+      }
+
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () {
+          showTab(b.getAttribute('data-filter').slice(1));
+        });
+      });
+
+      var saved = null;
+      try { saved = localStorage.getItem('tab'); } catch (e) {}
+      showTab(saved && document.querySelector('#filters .button[data-filter=".' + saved + '"]') ? saved : 'highlight');
+    </script>
+  </body>
+</html>
